@@ -1,0 +1,17 @@
+{
+  "name": "Buku Cinta",
+  "version": "0.7",
+  "manifest_version": 2,
+  "description": "Aplikasi Bukucinta untuk Google Chrome.",
+  "browser_action": {
+    "default_icon": "browser_action_icon.png",
+    "default_title": "App Launcher",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "tabs", "http://bukucinta.com/"
+  ]
+}
